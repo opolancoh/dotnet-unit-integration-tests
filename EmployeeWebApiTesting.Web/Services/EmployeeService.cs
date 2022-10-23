@@ -32,8 +32,8 @@ public class EmployeeService : IEmployeeService
         {
             Id = new Guid(),
             Name = item.Name,
-            Age = item.Age,
-            HireDate = item.HireDate
+            Age = item.Age.GetValueOrDefault(),
+            HireDate = item.HireDate.GetValueOrDefault()
         };
 
         _db.Employees.Add(newItem);
@@ -48,8 +48,8 @@ public class EmployeeService : IEmployeeService
         {
             Id = id,
             Name = item.Name,
-            Age = item.Age,
-            HireDate = item.HireDate
+            Age = item.Age.GetValueOrDefault(),
+            HireDate = item.HireDate.GetValueOrDefault()
         };
 
         _db.Entry(itemToUpdate).State = EntityState.Modified;

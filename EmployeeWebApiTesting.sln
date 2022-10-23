@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeWebApiTesting.Web", "EmployeeWebApiTesting.Web\EmployeeWebApiTesting.Web.csproj", "{6E5A5EB3-DAE4-45BB-911F-6A6A3932DC91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeWebApiTesting.Tests.XUnit", "EmployeeWebApiTesting.Tests.XUnit\EmployeeWebApiTesting.Tests.XUnit.csproj", "{305BA230-7586-48EE-B4A1-FC4E418AB812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6E5A5EB3-DAE4-45BB-911F-6A6A3932DC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E5A5EB3-DAE4-45BB-911F-6A6A3932DC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E5A5EB3-DAE4-45BB-911F-6A6A3932DC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305BA230-7586-48EE-B4A1-FC4E418AB812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305BA230-7586-48EE-B4A1-FC4E418AB812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305BA230-7586-48EE-B4A1-FC4E418AB812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305BA230-7586-48EE-B4A1-FC4E418AB812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
